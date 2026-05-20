@@ -104,8 +104,8 @@ export default defineNuxtConfig({
   },
   $production: {
     appConfig: {
-      apiBaseUrl: 'https://backend.kokoatv.net/api',
-      apiBaseUrlSsr: 'https://backend.kokoatv.net/api'
+      apiBaseUrl: 'http://127.0.0.1:8000/api',
+      apiBaseUrlSsr: 'http://127.0.0.1:8000/api'
     },
     app: {
       head: {
