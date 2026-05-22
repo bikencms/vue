@@ -39,17 +39,6 @@
         $(document).on("click", function(e) {
             $(".site-content").hasClass("active-hh-sidebar") && ($(".handheld-sidebar-toggle").is(e.target) || 0 !== $(".handheld-sidebar-toggle").has(e.target).length || $("#secondary").is(e.target) || 0 !== $("#secondary").has(e.target).length || $(".site-content").toggleClass("active-hh-sidebar"))
         })
-
-        if ($isProdEnv()) {
-            setTimeout(() => {
-                (function(s, w) {
-                    s.setAttribute("async", "async");
-                    s.setAttribute("type", "text/javascript");
-                    s.setAttribute("src", "//scripts.kiosked.com/loader/kiosked-loader.js?site=17622");
-                    w.document.body.appendChild(s);
-                })(window.top.document.createElement("script"), window.top)
-            }, 100)
-        }
     })
 </script>
 <template>
