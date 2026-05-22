@@ -88,7 +88,6 @@ export default defineNuxtConfig({
       script: [
         {
           src: "/js/jquery-3.7.0.min.js",
-          defer: true
         },
         {
           src: "/js/embla-carousel.umd.js"
