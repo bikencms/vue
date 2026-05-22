@@ -4,6 +4,7 @@ export default defineNuxtConfig({
   devServer: {
     host: '0.0.0.0'
   },
+  sourcemap: false,
   modules: [
     'nuxt-lazy-load',
     '@nuxtjs/device',
@@ -46,9 +47,9 @@ export default defineNuxtConfig({
         { name: 'google', content: 'notranslate' },
       ],
       link: [
-        { rel: 'icon', type: 'image/x-icon', href: 'https://image002.modooup.com/wp-content/uploads/2023/03/ms-icon-310x310-1-36x36.png', sizes: '32x32' },
-        { rel: 'icon', type: 'image/x-icon', href: 'https://image002.modooup.com/wp-content/uploads/2023/03/ms-icon-310x310-1-300x300.png', sizes: '192x192' },
-        { rel: 'apple-touch-icon', type: 'image/x-icon', href: 'https://image002.modooup.com/wp-content/uploads/2023/03/ms-icon-310x310-1-300x300.png' },
+        { rel: 'icon', type: 'image/x-icon', href: 'https://https://movieaxn.com/images/logo-32x32.png', sizes: '32x32' },
+        { rel: 'icon', type: 'image/x-icon', href: 'https://https://movieaxn.com/images/logo-192x192.png', sizes: '192x192' },
+        { rel: 'apple-touch-icon', type: 'image/x-icon', href: 'https://https://movieaxn.com/images/logo-300x300.png' },
         {
           rel: 'stylesheet',
           href: '/css/fonts.css?dsklhg'
@@ -90,22 +91,22 @@ export default defineNuxtConfig({
         {
           src: '/js/jquery.easing.min.js'
         },
-        {
-          src: 'https://www.googletagmanager.com/gtag/js?id=UA-160268616-2'
-        }
+        // {
+        //   src: 'https://www.googletagmanager.com/gtag/js?id=UA-160268616-2'
+        // }
       ]
     }
   },
   $development: {
     appConfig: {
-      apiBaseUrl: 'http://127.0.0.1:8000/api',
-      apiBaseUrlSsr: 'http://127.0.0.1:8000/api'
+      apiBaseUrl: 'https://api.movieaxn.com/api',
+      apiBaseUrlSsr: 'https://api.movieaxn.com/api'
     }
   },
   $production: {
     appConfig: {
-      apiBaseUrl: 'http://127.0.0.1:8000/api',
-      apiBaseUrlSsr: 'http://127.0.0.1:8000/api'
+      apiBaseUrl: 'https://api.movieaxn.com/api',
+      apiBaseUrlSsr: 'https://api.movieaxn.com/api'
     },
     app: {
       head: {
