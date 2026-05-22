@@ -47,8 +47,8 @@ export default defineNuxtConfig({
         { name: 'google', content: 'notranslate' },
       ],
       link: [
-        { rel: 'icon', type: 'image/x-icon', href: 'https://https://movieaxn.com/images/logo-32x32.png', sizes: '32x32' },
-        { rel: 'icon', type: 'image/x-icon', href: 'https://https://movieaxn.com/images/logo-192x192.png', sizes: '192x192' },
+        { rel: 'icon', type: 'image/x-icon', href: 'https://movieaxn.com/images/logo-32x32.png', sizes: '32x32' },
+        { rel: 'icon', type: 'image/x-icon', href: 'https://movieaxn.com/images/logo-192x192.png', sizes: '192x192' },
         { rel: 'apple-touch-icon', type: 'image/x-icon', href: 'https://https://movieaxn.com/images/logo-300x300.png' },
         {
           rel: 'stylesheet',
