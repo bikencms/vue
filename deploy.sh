@@ -1,11 +1,13 @@
 #run git pull
 git pull
 
+npm install -g pnpm
+
 #run git pull
-npm install
+pnpm install
 
 #run npm build
-npm run build
+pnpm build
 
 #run start pm2
 pm2 restart ecosystem.config.js --watch
