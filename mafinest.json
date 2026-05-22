@@ -14,24 +14,19 @@
     ],
     "icons": [
       {
-        "src": "https://image002.modooup.com/wp-content/uploads/2023/03/ms-icon-310x310-1-36x36.png",
+        "src": "https://movieaxn.com/images/logo-32x32.png",
         "type": "image/png",
-        "sizes": "36x36"
+        "sizes": "32x32"
       },
       {
-        "src": "https://image002.modooup.com/wp-content/uploads/2023/03/ms-icon-310x310-1-300x300.png",
+        "src": "https://movieaxn.com/images/logo-192x192.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "https://https://movieaxn.com/images/logo-300x300.png",
         "type": "image/png",
         "sizes": "300x300"
-      },
-      {
-        "src": "https://kokoatv.net/wp-content/uploads/2023/03/ms-icon-310x310-1-300x300.png",
-        "type": "image/png",
-        "sizes": "512x512"
-      },
-      {
-        "src": "https://image002.modooup.com/wp-content/uploads/2023/03/ms-icon-310x310-1-36x36.png",
-        "type": "image/png",
-        "sizes": "36x36"
       }
     ],
     "screenshots" : [

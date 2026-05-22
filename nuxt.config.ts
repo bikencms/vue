@@ -26,6 +26,7 @@ export default defineNuxtConfig({
     loadedClass: 'lazyloaded'
   },
   nitro: {
+    compressPublicAssets: true,
     storage: {
       fs: {
         driver: 'fs',
@@ -37,6 +38,15 @@ export default defineNuxtConfig({
         maxAge: 60 * 60 * 24 * 365
       }
     ],
+     routeRules: {
+      '/': {
+        swr: 300
+      },
+
+      '/movie/**': {
+        swr: 3600
+      },
+    },
     prerender: {
       failOnError: false, 
     }
@@ -77,7 +87,8 @@ export default defineNuxtConfig({
       ],
       script: [
         {
-          src: "/js/jquery-3.7.0.min.js"
+          src: "/js/jquery-3.7.0.min.js",
+          defer: true
         },
         {
           src: "/js/embla-carousel.umd.js"
@@ -91,9 +102,6 @@ export default defineNuxtConfig({
         {
           src: '/js/jquery.easing.min.js'
         },
-        // {
-        //   src: 'https://www.googletagmanager.com/gtag/js?id=UA-160268616-2'
-        // }
       ]
     }
   },
@@ -114,10 +122,6 @@ export default defineNuxtConfig({
           {
             children: 'window.__ITGS_started = Date.now();'
           }
-          // {
-          //   src: 'https://cdn.jsdelivr.net/npm/disable-devtool/disable-devtool.min.js',
-          //   "disable-devtool-auto": true
-          // }
         ],
       }
     }

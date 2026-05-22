@@ -12,7 +12,7 @@ const thumbnail = props.thumbnail
     <div class="tv-show tv_show type-tv_show status-publish has-post-thumbnail hentry category-apple-tv category-u-drama">
         <div class="tv-show__poster">
             <div class="box-tv-channel">
-                <img src="https://image002.modooup.com/wp-content/uploads/2022/05/appletv.png" alt="" width="60" height="31" class="tv-channel">
+                <img src="/images/appletv.png" alt="" width="60" height="31" class="tv-channel">
             </div>
             <a :href="{path: '/episode/' + id}" class="masvideos-LoopTvShow-link masvideos-loop-tv-show__link tv-show__link"><img width="300"
                 height="450"
