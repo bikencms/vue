@@ -5,7 +5,7 @@
                 <div class="site-footer__logo footer-logo"><a href="/" class="custom-logo-link"
                         rel="home"><img width="653" height="152"
                             src="/images/logo-192x192.png"
-                            class="custom-logo" alt="코코아티비 :: KOKOA.TV"></a></div>
+                            class="custom-logo" alt="코코아티비 :: MOVIEAXN.COM"></a></div>
                 <div class="site-footer__social-icons footer-social-icons">
                     <ul id="menu-footer-social-menu" class="social-icons">
                         <li

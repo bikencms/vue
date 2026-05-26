@@ -60,12 +60,12 @@
     )
 
     useHead({
-        title: '예능 무료 다시보기 - 코코아티비 :: KOKOA.TV',
+        title: '예능 무료 다시보기 - 코코아티비 :: MOVIEAXN.COM',
         meta: [
             {
                 hid: 'description',
                 name: 'description',
-                content: '예능 무료 다시보기 - 코코아티비 :: KOKOA.TV 최신,한국영화,드라마,예능,미드 등을 무료 스트리밍 다시보기로 즐길 수 있습니다. 넷플릭스(Netflix),와차,디즈니플러스,웨이브 등 각종 OTT 컨텐츠 또한 링크 제공합니다.'
+                content: '예능 무료 다시보기 - 코코아티비 :: MOVIEAXN.COM 최신,한국영화,드라마,예능,미드 등을 무료 스트리밍 다시보기로 즐길 수 있습니다. 넷플릭스(Netflix),와차,디즈니플러스,웨이브 등 각종 OTT 컨텐츠 또한 링크 제공합니다.'
             }
         ],
         script: [

@@ -3,7 +3,7 @@
     const { $apiBaseUrl } = useNuxtApp()
     const route = useRoute();
     const router = useRouter();
-    const pageTitle = ref('코코아티비 :: KOKOA.TV')
+    const pageTitle = ref('코코아티비 :: MOVIEAXN.COM')
 
     definePageMeta({
         pageTransition: {
@@ -42,7 +42,7 @@
                 page: page.value
             }
         }).then(data => {
-            pageTitle.value = data.name + ' – 코코아티비 :: KOKOA.TV'
+            pageTitle.value = data.name + ' – 코코아티비 :: MOVIEAXN.COM'
             return data
         }),
         {
