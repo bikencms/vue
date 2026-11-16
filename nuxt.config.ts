@@ -106,14 +106,14 @@ export default defineNuxtConfig({
   },
   $development: {
     appConfig: {
-      apiBaseUrl: 'https://api.movieaxn.com/api',
-      apiBaseUrlSsr: 'https://api.movieaxn.com/api'
+      apiBaseUrl: import.meta.env.API_BASE_URL || 'https://movieaxn.onrender.com/api',
+      apiBaseUrlSsr: import.meta.env.API_BASE_URL || 'https://movieaxn.onrender.com/api'
     }
   },
   $production: {
     appConfig: {
-      apiBaseUrl: 'https://api.movieaxn.com/api',
-      apiBaseUrlSsr: 'https://api.movieaxn.com/api'
+      apiBaseUrl: import.meta.env.API_BASE_URL || 'https://movieaxn.onrender.com/api',
+      apiBaseUrlSsr: import.meta.env.API_BASE_URL || 'https://movieaxn.onrender.com/api'
     },
     app: {
       head: {

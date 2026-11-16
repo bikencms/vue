@@ -1,1 +1,1 @@
-export const apiBaseUrl = 'http://127.0.0.1:8000/api'
+export const apiBaseUrl = process.env.API_BASE_URL || 'https://movieaxn.onrender.com/api'
