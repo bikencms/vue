@@ -9,5 +9,5 @@ services:
     envVars:
       - key: NODE_VERSION
         value: 18.17.3 # Hoặc phiên bản Node.js tương thích với project của bạn (khuyên dùng Node 18+)
-      - key: PORT
-        value: 3000
+      - key: API_BASE_URL
+        value: https://movieaxn.onrender.com/api
