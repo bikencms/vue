@@ -49,7 +49,8 @@ export default defineNuxtConfig({
     },
     prerender: {
       failOnError: false, 
-    }
+    },
+    preset: 'node-server'
   },
   app: {
     head: {
