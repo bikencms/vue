@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: nuxt3-app
+    env: node
+    region: singapore # Chọn khu vực gần bạn (singapore, ohio, frankfurt, v.v.)
+    plan: free # Hoặc starter, tùy nhu cầu
+    buildCommand: npm install && npm run build
+    startCommand: node .output/server/index.mjs
+    envVars:
+      - key: NODE_VERSION
+        value: 18.17.3 # Hoặc phiên bản Node.js tương thích với project của bạn (khuyên dùng Node 18+)
+      - key: PORT
+        value: 3000
