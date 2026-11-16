@@ -50,7 +50,7 @@ export default defineNuxtConfig({
     prerender: {
       failOnError: false, 
     },
-    preset: 'node-server'
+    preset: 'vercel'
   },
   app: {
     head: {
